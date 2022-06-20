@@ -1,0 +1,7 @@
+.container {
+    width: 80%;
+    display: grid;
+    grid-template-areas: "heading heading"
+                         "text image";
+
+}

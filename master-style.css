@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Overlock:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    font-size: 20px;
+    font-family: 'Overlock', cursive;
+    color: #f8f6fd;
+}
+
+body {
+    background: hsla(229, 89%, 35%, 1);
+    background: linear-gradient(145deg, hsla(179, 85%, 32%, 1) 0%, hsla(225, 89%, 47%, 1) 40%, hsla(229, 89%, 35%, 1) 100%);
+    background: -moz-linear-gradient(145deg, hsla(179, 85%, 32%, 1) 0%, hsla(225, 89%, 47%, 1) 40%, hsla(229, 89%, 35%, 1) 100%);
+    background: -webkit-linear-gradient(145deg, hsla(179, 85%, 32%, 1) 0%, hsla(225, 89%, 47%, 1) 40%, hsla(229, 89%, 35%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0A27A8", endColorstr="#0D41E1", GradientType=1 );
+}
+
+nav {
+    width: 100%;
+    border-top: 2px solid #f8f6fd;
+    border-bottom: 2px solid #f8f6fd;
+}
+
+ul.nav-list {
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.25em 0;
+}
+
+li.nav-item {
+    display: inline;
+    padding: 0.25em 1.5em;
+    border: 1px solid #f8f6fd;
+}
+
+li.nav-item a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Mr Dafoe', cursive;
+    color: #f7def6;
+    font-size: 4em;
+    font-weight: normal;
+}

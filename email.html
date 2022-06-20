@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <meta charset="utf-8">
+        <title>My First Website Project</title>
+    </head>
+    <body>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html" class="nav-link" id="home">Home</a></li>
+                <li class="nav-item"><a href="email.html" class="nav-link" id="email">Email List</a></li>
+                <li class="nav-item"><a href="recipes.html" class="nav-link" id="recipes">Recipes</a></li>
+                <li class="nav-item"><a href="decorating.html" class="nav-link" id="decorating">Decorating</a></li>
+            </ul>
+        </nav>
+
+        <h1>Email List</h1>
+        <p>Join for occasional emails with my favorite recipes and decorating tips</p>
+
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <div class="name">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="full_name">
+                </div>
+
+                <div class="email">
+                    <label for="email-list">Email:</label>
+                    <input type="email" id="email-list" name="email">
+                </div>
+
+                <div class="text-area">
+                    <label for="text-area">Tell me about your favorite things to make</label>
+                    <textarea id="text-area" name="favorite_baking"></textarea>
+                </div>
+
+                <div class="checkbox">
+                    <label for="signup">Sign me up!</label>
+                    <input type="checkbox" id="signup" name="subscribe" value="list">
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
