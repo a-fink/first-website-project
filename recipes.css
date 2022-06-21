@@ -1,0 +1,19 @@
+p {
+    text-align: center;
+    font-size: 1.25em;
+    font-style: italic;
+}
+
+ul {
+    width: 50%;
+    margin: 0.25em 25%;
+}
+
+li {
+    padding: 0.5em 0;
+    margin: 0.25em 0;
+}
+
+a:hover {
+    font-size: 1.1em;
+}

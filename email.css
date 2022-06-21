@@ -1,0 +1,77 @@
+.email-container {
+    width: 35%;
+    margin: 0.25em 32.5%;
+    padding: 0;
+    text-align: center;
+}
+
+form {
+    width: 82%;
+    margin: 0.25em 7%;
+    padding: 0.5em;
+    text-align: left;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: bold;
+    margin: 0;
+}
+
+label {
+    display: block;
+    margin: 0.5em 0;
+}
+
+input {
+    width: 48ch;
+}
+
+textarea {
+    width: 48ch;
+    height: 13ch;
+}
+
+.checkbox {
+    width: 97%;
+    display: grid;
+    grid-template-areas: "text check";
+    grid-template-columns: 20% 80%;
+    justify-content: center;
+    justify-items: left;
+    align-items: baseline;
+    align-content: center;
+}
+
+[type="checkbox"] {
+    grid-area: check;
+    width: 10%;
+    padding: 0.25em;
+    margin: 0.25em;
+    transform: scale(1.5);
+}
+
+.checkbox label {
+    grid-area: text;
+}
+
+.button {
+    margin: 0.25em 0;
+    align-self: center;
+}
+
+button {
+    width: 12ch;
+    background: none;
+    border: 1px solid var(--text-color);
+}
+
+button:hover {
+    font-style: italic;
+}
+
+button:active {
+    font-style: italic;
+}

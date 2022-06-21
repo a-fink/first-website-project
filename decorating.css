@@ -1,0 +1,28 @@
+p {
+    text-align: center;
+    font-size: 1.25em;
+    font-style: italic;
+}
+
+.decorating-container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+img {
+    width: 400px;
+    height: 250px;
+}
+
+a img:hover {
+    filter: opacity(0.75);
+}
+
+a img:active {
+    filter: opacity(0.75);
+}

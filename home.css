@@ -1,7 +1,42 @@
 .container {
     width: 80%;
+    margin: 0.75rem 10%;
     display: grid;
     grid-template-areas: "heading heading"
                          "text image";
+    justify-items: center;
+    justify-content: center;
+    column-gap: 2em;
+}
 
+h1 {
+    grid-area: heading;
+}
+
+h2 {
+    font-family: 'Mr Dafoe', cursive;
+    color: var(--heading-pink);
+    font-size: 1.25em;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    padding: 0.25rem 0;
+    margin: 0.25rem 0;
+}
+
+.index-div {
+    grid-area: text;
+}
+
+img {
+    grid-area: image;
+    width: 700px;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+}
+
+p {
+    font-size: 0.9em;
+    padding: 0.25em 0;
+    margin: 0.25em 0 0.5em;
 }
